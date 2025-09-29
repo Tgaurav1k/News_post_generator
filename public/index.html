@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Post Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📸 Instagram Post Generator</h1>
+            <p>Transform news headlines into visual posts</p>
+        </header>
+
+        <main>
+            <section class="input-section">
+                <div class="form-group">
+                    <label for="headline">News Headline</label>
+                    <textarea 
+                        id="headline" 
+                        placeholder="Enter your news headline here..."
+                        rows="3"
+                        aria-describedby="headline-help"
+                    ></textarea>
+                    <small id="headline-help">Paste or write a compelling headline</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="count">Number of Images</label>
+                    <input 
+                        type="number" 
+                        id="count" 
+                        min="1" 
+                        max="9" 
+                        value="4"
+                        aria-describedby="count-help"
+                    >
+                    <small id="count-help">Generate 1-9 unique variations</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="style-select">Visual Style</label>
+                    <select id="style-select" aria-label="Select visual style">
+                        <option value="realistic">Realistic</option>
+                        <option value="animated">Animated</option>
+                        <option value="3d">3D</option>
+                        <option value="infographic">Infographic</option>
+                    </select>
+                    <small>Choose how the post should look</small>
+                </div>
+
+                <button id="generate-btn" class="btn-primary">
+                    Generate Posts
+                </button>
+            </section>
+
+            <section class="gallery-section" id="gallery-section" style="display: none;">
+                <div class="gallery-header">
+                    <h2>Generated Posts</h2>
+                    <span id="selection-counter" class="counter">Selected: 0/0</span>
+                </div>
+                <div id="gallery" class="gallery"></div>
+            </section>
+
+            <div id="loader" class="loader" style="display: none;">
+                <div class="spinner"></div>
+                <p>Generating your images...</p>
+            </div>
+        </main>
+    </div>
+
+    <div id="toast" class="toast" role="alert" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
