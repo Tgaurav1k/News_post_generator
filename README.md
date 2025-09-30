@@ -211,10 +211,7 @@ instagram_post/
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+.
 
 ## 🙏 Acknowledgments
 
@@ -224,16 +221,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/Tgaurav1k/News_post_generator/issues) page
-2. Create a new issue with detailed information
-3. Include error messages and steps to reproduce
-
----
-
-**⭐ Star this repository if you found it helpful!**
-
-**🔗 Live Demo**: [Add your deployed URL here]
-
-**📱 Connect with me**: [Your LinkedIn/Portfolio links]
+*📱 Connect with me**: [https://www.linkedin.com/in/gaurav-kumar-6bb732230/]
