@@ -12,6 +12,13 @@ Transform news headlines into stunning visual Instagram posts using AI! This app
 - **🚀 Fast & Efficient**: Parallel processing for multiple image generation
 - **📊 Professional Quality**: High-resolution, social media-ready outputs
 
+<img width="1364" height="678" alt="heading" src="https://github.com/user-attachments/assets/b9f689de-081c-4e83-9646-b2adc66dbc27" />
+
+<img width="1365" height="682" alt="Screenshot 2025-09-29 181430" src="https://github.com/user-attachments/assets/aa37afc5-d3cc-4d32-86a7-a83f94d8a79e" />
+
+<img width="1339" height="671" alt="result2" src="https://github.com/user-attachments/assets/76758168-9466-42b6-9f6a-63f45e51db90" />
+
+
 ## 🛠️ Tech Stack
 
 - **Backend**: Node.js, Express.js
